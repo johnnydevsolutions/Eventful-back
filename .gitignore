@@ -1,0 +1,62 @@
+Arquivo .gitignore específico para .NET Core v8 no Visual Studio Code
+Observações:
+
+Este arquivo .gitignore é específico para projetos .NET Core v8.
+Você pode precisar ajustar este arquivo para atender às suas necessidades específicas.
+Certifique-se de ler os comentários em cada linha para entender o que está sendo ignorado.
+# Diretórios de binários gerados
+**/bin/
+**/obj/
+**/bin/**/*dbg.exe
+**/bin/**/*netcoreapp*.dll
+**/bin/**/*netcoreapp*.exe
+**/bin/**/*netcoreapp*.runtime.dll
+**/bin/**/*netcoreapp*.so
+**/bin/**/*netcoreapp*.pdb
+
+# Diretórios de cache
+**/bin/Debug/
+**/bin/Release/
+**/obj/Debug/
+**/obj/Release/
+
+# Arquivos de log
+*.log
+*.log.*
+
+# Arquivos de teste
+*.test.*
+**/TestResults/
+
+# Arquivos de documentação
+**/doc/
+**/bin/doc/
+
+# Arquivos de pacotes NuGet
+**/packages/
+*.nupkg
+*.nuspec
+
+# Arquivos de migração do banco de dados
+**/Migrations/*
+
+# Arquivos de configuração local
+*.user
+*.local
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos VS
+*.vshost.*
+*.suo
+*.sln.cache
+
+# Arquivos Intelisense
+*.IntelliSense.Cache
+*.IntelliSense.IntellisenseCache.db
+
+# Arquivos Rider
+*.riderws
+*.ridermeta
