@@ -60,3 +60,8 @@ Certifique-se de ler os comentários em cada linha para entender o que está sen
 # Arquivos Rider
 *.riderws
 *.ridermeta
+
+# Sqlite
+eventful.db
+eventful.db-shm
+eventful.db-wal
